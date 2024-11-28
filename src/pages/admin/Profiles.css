@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .box-root {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .data-grid-root {
+    margin-top: 20px;
+  }
+  
+  .data-grid-cell {
+    text-align: center;
+  }
+  
+  .data-grid-columnHeaders {
+    background-color: #e0e0e0;
+  }
+  
+  .data-grid-pagination {
+    margin-top: 20px;
+  }
+  
+  /* Custom modal and buttons */
+  .custom-modal-header {
+    background-color: #3079e6;
+    color: white;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+  }
+  
+  .custom-modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .custom-modal-footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .custom-modal-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .custom-modal-button-primary {
+    background-color: #3079e6;
+  }
+  
+  .custom-modal-button-success {
+    background-color: #28a745;
+  }
+  
+  .custom-modal-button-primary:hover, .custom-modal-button-success:hover {
+    transform: scale(1.05);
+  }
+  
